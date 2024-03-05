@@ -1,7 +1,8 @@
+import React from "react";
 import { Outlet } from "react-router-dom";
 import Nav from "./nav/Nav";
 import Footer from "./footer/Footer";
-
+import ImageBack from "../../constant/Backgound";
 
 export default function Layout() {
   return (
@@ -9,9 +10,14 @@ export default function Layout() {
       <header>
         <Nav />
       </header>
-      
-      <main className="flex-grow">
-        <Outlet />
+
+      <main >
+        {/* <div className="relative mb-5"> */}
+            <ImageBack big={true} /> 
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full z-20">
+                <Outlet />
+            </div>
+        {/* </div> */}
       </main>
 
       <footer>

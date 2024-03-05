@@ -10,7 +10,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="sm:flex sm:items-center sm:justify-between p-4">
+    <nav className="sm:flex sm:items-center sm:justify-between p-4 h-38">
       <HiMenuAlt2
         className="text-5xl cursor-pointer sm:hidden text-light-gray-800"
         onClick={handleToggleMobileMenu}
