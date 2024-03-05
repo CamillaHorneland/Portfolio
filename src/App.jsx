@@ -8,8 +8,8 @@ import Layout from "./components/layout/Layout";
 
 function App() {
     return (
-   
-        <Routes>
+
+      <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path="contact" element={<ContactPage />} />
