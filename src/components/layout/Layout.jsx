@@ -13,7 +13,7 @@ export default function Layout() {
 
       <main className="flex-grow">
         <ImageBack big={true} /> 
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full z-20">
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
           <Outlet />
         </div>
       </main>

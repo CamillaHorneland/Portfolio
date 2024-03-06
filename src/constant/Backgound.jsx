@@ -1,15 +1,15 @@
 import React from "react";
-import Background from "../assets/BackroundCircel.png";
+import Background from "../assets/BackgroundCircle.png";
 
 const ImageBack = ({ big = true }) => {
   const overlayClass = big
-    ? " bg-white opacity-50"
-    : " bg-white opacity-50";
+    ? "inset-0 bg-white opacity-20"
+    : "inset-0 bg-white opacity-50"; 
 
   return (
     <>
       <div
-        className="h-[60vh] bg-cover bg-center"
+        className=" sm:h-[60vh] h-[80vh] bg-cover bg-center relative"
         style={{ backgroundImage: `url(${Background})`, backgroundSize: "cover" }}
       />
       <div className={overlayClass} />

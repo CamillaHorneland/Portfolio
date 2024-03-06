@@ -5,10 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'cursive': ['Cursive', 'sans-serif'],
+      },
+    },
   },
-  plugins: [require("@tailwindcss/typography"),],
+  plugins: [require("@tailwindcss/typography")],
 }
+
 
 
 
