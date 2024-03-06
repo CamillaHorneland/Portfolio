@@ -12,12 +12,10 @@ export default function Layout() {
       </header>
 
       <main >
-        {/* <div className="relative mb-5"> */}
-            <ImageBack big={true} /> 
-            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center w-full z-20">
-                <Outlet />
-            </div>
-        {/* </div> */}
+        <ImageBack big={true} /> 
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  w-full z-20">
+            <Outlet />
+        </div>
       </main>
 
       <footer>

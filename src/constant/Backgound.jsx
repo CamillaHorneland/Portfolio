@@ -9,7 +9,7 @@ const ImageBack = ({ big = true }) => {
   return (
     <div className="">
       <img
-        className="w-full h-auto"
+        className="bg-cover bg-center"
         src={Background}
         alt="BackgroundCircels"
       />
