@@ -3,19 +3,26 @@ import Background from "../assets/BackroundCircel.png";
 
 const ImageBack = ({ big = true }) => {
   const overlayClass = big
-    ? "h-full w-full absolute top-0 left-0 bg-white opacity-50"
-    : "h-full w-full absolute top-0 left-0 bg-white opacity-50";
+    ? " bg-white opacity-50"
+    : " bg-white opacity-50";
 
   return (
-    <div className="">
-      <img
-        className="bg-cover bg-center"
-        src={Background}
-        alt="BackgroundCircels"
+    <>
+      <div
+        className="h-[60vh] bg-cover bg-center"
+        style={{ backgroundImage: `url(${Background})`, backgroundSize: "cover" }}
       />
-      <div className={overlayClass}></div>
-    </div>
+      <div className={overlayClass} />
+    </>
   );
 };
 
 export default ImageBack;
+
+
+
+
+
+
+
+

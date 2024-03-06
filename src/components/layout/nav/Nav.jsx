@@ -10,16 +10,16 @@ const Nav = () => {
   };
 
   return (
-    <nav className="sm:flex sm:items-center sm:justify-between p-4 h-38">
+      <nav className="sm:flex sm:items-center sm:justify-between bg-white p-4 m-4 z-30">
       <HiMenuAlt2
-        className="text-5xl cursor-pointer sm:hidden text-light-gray-800"
+        className="text-6xl cursor-pointer sm:hidden text-pink-300"
         onClick={handleToggleMobileMenu}
       />
       <ul className={`${isMobileMenuOpen ? 'block' : 'hidden'} sm:flex sm:space-x-4 text-gray-800 ml-auto mr-4`}>
         <li className="m-4 group">
           <NavLink
             to="/"
-            className="active mx-4 transition-all hover:text-lg font-bold"
+            className="active mx-4 transition-all hover:text-lg font-bold text-gray-400"
             onClick={() => setIsMobileMenuOpen(false)}
           >
             Home
@@ -28,7 +28,7 @@ const Nav = () => {
         <li className="m-4 group">
           <NavLink
             to="/projects"
-            className="active mx-4 transition-all hover:text-lg font-bold"
+            className={`active mx-4 transition-all hover:text-lg font-bold text-gray-400 ${isMobileMenuOpen ? 'bg-white' : ''}`}
             onClick={() => {
               setIsMobileMenuOpen(false);
             }}
@@ -36,10 +36,10 @@ const Nav = () => {
             Projects
           </NavLink>
         </li>
-         <li className="m-4 group">
+        <li className="m-4 group">
           <NavLink
             to="/contact"
-            className="active mx-4 transition-all hover:text-lg font-bold"
+            className="active mx-4 transition-all hover:text-lg font-bold text-gray-400"
             onClick={() => {
               setIsMobileMenuOpen(false);
             }}
@@ -53,5 +53,6 @@ const Nav = () => {
 };
 
 export default Nav;
+
 
 

@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <div className="h-38 flex flex-col items-center justify-center p-4 text-black">
-      <div className="m-3 mb-4">
+    <div className="flex flex-col items-center text-grey-200  h-48 ">
+      <div className="m-3 m-4">
         <Link to="/contact">Contact me</Link>
       </div>
-      <div className="text-right m-3 mb-5">
+      <div className=" m-3 m-5">
         &copy; {new Date().getFullYear()} Portfolio Camilla Horneland.
       </div>
     </div>

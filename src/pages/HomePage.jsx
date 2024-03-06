@@ -8,7 +8,7 @@ import ProfileImage from "../assets/Profileimage.jpg";
 function HomePage() {
   return (
     <div className="flex flex-col sm:flex-row justify-center">
-      <div className='w-full sm:w-1/2 text-center mb-4 sm:mb-0'>
+      <div className='w-full sm:w-1/2 text-center'>
         <Hi />
         <Name />
         <Info />
@@ -16,8 +16,8 @@ function HomePage() {
           My work
         </Link>
       </div>
-      <div className='w-full sm:w-1/2 flex items-center justify-center'>
-        <img src={ProfileImage} alt="Profile image" className="h-72 m-10 " />
+      <div className='w-full sm:w-1/2 flex items-center justify-center mb-10'>
+        <img src={ProfileImage} alt="Profile image" className="h-72 m-20 " />
       </div>
     </div>
   );
