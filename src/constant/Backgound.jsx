@@ -9,7 +9,7 @@ const ImageBack = ({ big = true }) => {
   return (
     <>
       <div
-        className=" sm:h-[60vh] h-[80vh] bg-cover bg-center relative"
+        className=" sm:h-[60vh] h-[90vh] bg-cover bg-center relative"
         style={{ backgroundImage: `url(${Background})`, backgroundSize: "cover" }}
       />
       <div className={overlayClass} />
