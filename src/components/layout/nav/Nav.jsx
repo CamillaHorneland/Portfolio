@@ -15,7 +15,7 @@ const Nav = () => {
         className="text-6xl cursor-pointer sm:hidden text-pink-300"
         onClick={handleToggleMobileMenu}
       />
-      <ul className={`${isMobileMenuOpen ? 'block' : 'hidden'} sm:flex sm:space-x-4 text-gray-800 ml-auto mr-4`}>
+      <ul className={`${isMobileMenuOpen ? 'block' : 'hidden'} sm:flex sm:space-x-4 text-gray-800 ml-auto mt-10 mr-4`}>
         <li className="m-4 group">
           <NavLink
             to="/"
