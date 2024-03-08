@@ -20,7 +20,15 @@ const projectsData = [
   {
     title: "Slime-Care",
     image: "/src/assets/slime-care.jpeg",
-    description: "This is my project exam.",
+    description: "This is my project exam 1.",
+    technologies: ["Adobe XD", "HTML", "CSS", "Wordpress Headless CMS (REST API)"],
+    liveLink: "https://slime-care.netlify.app/",
+    repoLink: "https://github.com/Noroff-FEU-Assignments/project-exam-1-CamillaHorneland.git",
+  },
+  {
+    title: "Portfolio",
+    image: "/src/assets/portifolio1.jpeg",
+    description: "This is my portfolio from the first year of school.",
     technologies: ["Adobe XD", "HTML", "CSS", "Wordpress Headless CMS (REST API)"],
     liveLink: "https://slime-care.netlify.app/",
     repoLink: "https://github.com/Noroff-FEU-Assignments/project-exam-1-CamillaHorneland.git",
