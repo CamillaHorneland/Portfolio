@@ -1,5 +1,6 @@
-import Projects1Year from "../components/projects/Projects1Year";
 import Projects2Year from "../components/projects/Projects2Year";
+import Projects1Year from "../components/projects/Projects1Year";
+
 
 
 function ProjectsPage() {
