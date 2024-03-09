@@ -53,7 +53,7 @@ To start the development server with Vite, run:
 
 <a href="mailto:hornikkene@gmail.com?">My Mail</a>
 
-<a href="https://portfoliocamillahorneland.netlify.app/">My Portfolio</a>
+<a href="https://camilla-horneland-portfolio.netlify.app/">My Portfolio</a>
 
 <a href="https://www.linkedin.com/in/camilla-horneland-706bb5239/">My LinkedIn page</a>
 
