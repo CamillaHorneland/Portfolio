@@ -7,6 +7,9 @@ function ContactPage() {
         <h1 className="text-4xl font-bold font-cursive text-gray-500 m-10">Hello there!</h1>
         <div className="text-gray-500 m-10 font-sans leading-loose">
           <p className="mb-5">
+            Over the past two years, I have been studying front-end development at Noroff and recently completed my final exam. 
+          </p>
+          <p className="mb-5">
             As a recent graduate stepping into the world of front-end development, I am eager to embark on exciting projects. Whether it's improving user experiences, refining interfaces, or creating user-friendly websites, I'm here to contribute my skills.
           </p>
           <p className="mb-5">
@@ -19,7 +22,7 @@ function ContactPage() {
 		<div className='text-center'>
         <a
           href="mailto:camilla_horneland@hotmail.com"
-          className="text-gray-500 py-3 px-10 rounded bg-pink-200 shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-pink-300 before:duration-500 before:ease-out hover:shadow-pink-500"
+          className="text-gray-500 py-3 px-10 rounded bg-pink-200 shadow-2xl transition-all before:duration-500 before:ease-out hover:shadow-pink-500"
         >
           camilla_horneland@hotmail.com
         </a>
