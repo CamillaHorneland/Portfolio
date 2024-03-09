@@ -1,29 +1,63 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Outlet } from "react-router-dom";
 import Nav from "./nav/Nav";
 import Footer from "./footer/Footer";
-import ImageBack from "../../constant/Backgound";
+import Background from "../../assets/BackgroundCircle.png";
 
 export default function Layout() {
+  const [minHeight, setMinHeight] = useState(0);
+
+  useEffect(() => {
+    const updateMinHeight = () => {
+      const contentHeight = document.body.scrollHeight;
+      setMinHeight(contentHeight);
+    };
+
+    updateMinHeight();
+    window.addEventListener("resize", updateMinHeight);
+
+    return () => {
+      window.removeEventListener("resize", updateMinHeight);
+    };
+  }, []);
+
   return (
-    <div className="flex flex-col min-h-screen h-screen">
+    <div className="flex flex-col min-h-screen relative">
       <header className="z-30">
         <Nav />
       </header>
 
-      <main className="flex-grow">
-        <ImageBack big={true} /> 
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full">
-          <Outlet />
+      <main className="flex-grow relative">
+        <div
+          className=" bg-cover bg-center p-10"
+          style={{
+            backgroundImage: `url(${Background})`,
+            
+          }}
+        >
+          <div className="container  px-4">
+            <Outlet />
+          </div>
         </div>
       </main>
 
-      <footer className="z-30 mt-20">
+      <footer className="z-30 relative">
         <Footer />
       </footer>
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

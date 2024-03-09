@@ -3,8 +3,8 @@ import React from 'react';
 function ContactPage() {
   return (
     <>
-      <div className="sm:mt-0 mt-20 mb-20 sm:pt-0 pt-20">
-        <h1 className="text-4xl font-bold font-cursive text-gray-600 m-10">Hello there!</h1>
+      <div className="mb-20">
+        <h1 className="text-4xl font-bold font-cursive text-gray-500 m-10">Hello there!</h1>
         <div className="text-gray-500 m-10 font-sans leading-loose">
           <p className="mb-5">
             As a recent graduate stepping into the world of front-end development, I am eager to embark on exciting projects. Whether it's improving user experiences, refining interfaces, or creating user-friendly websites, I'm here to contribute my skills.
