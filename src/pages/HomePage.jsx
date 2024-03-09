@@ -12,7 +12,7 @@ function HomePage() {
         <HomeHi />
         <Name />
         <Info />
-		    <Link to="/projects" className="text-gray-500 py-3 px-10  rounded bg-pink-200 shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-pink-300 before:duration-500 before:ease-out hover:shadow-pink-500 mb-20">
+		    <Link to="/projects" className="text-gray-500 py-3 px-10 rounded bg-pink-200 shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-pink-300 before:duration-500 before:ease-out hover:shadow-pink-500 mb-20">
           My work
         </Link>
       </div>
