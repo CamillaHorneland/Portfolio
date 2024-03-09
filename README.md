@@ -21,7 +21,7 @@ In this assignment, you will be documenting three prior submissions from the fir
 
 - Adobe XD
 - Tailwind
-- React - JavaScript Framework 
+- React - JavaScript Framework
 - Vite - Build tool for a faster and leaner development experience
 - React Router - Routing
 - Netlify - Static host
@@ -34,7 +34,6 @@ In this assignment, you will be documenting three prior submissions from the fir
 
      git clone https://github.com/CamillaHorneland/Portfolio.git
 
-
 2.Install NPM packages/dependencies
 
     cd Portfolio
@@ -44,26 +43,23 @@ In this assignment, you will be documenting three prior submissions from the fir
 
     npm start
 
-
-### Development 
+### Development
 
 To start the development server with Vite, run:
 
       npm run dev
 
-
 ### Contact
 
-<a href="mailto:hornikkene@gmail.com?">My Mail</a> 
+<a href="mailto:hornikkene@gmail.com?">My Mail</a>
 
 <a href="https://portfoliocamillahorneland.netlify.app/">My Portfolio</a>
 
-<a href="https://www.linkedin.com/in/camilla-horneland-706bb5239/">My LinkedIn page</a>  
-
+<a href="https://www.linkedin.com/in/camilla-horneland-706bb5239/">My LinkedIn page</a>
 
 ### Acknowledgments
 
     Noroff - School of technology and digital media
     React documentation
-    Tailwindcss documentation 
+    Tailwindcss documentation
     ChatGPT
