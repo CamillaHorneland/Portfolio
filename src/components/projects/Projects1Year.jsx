@@ -1,21 +1,17 @@
 import React from "react";
-import rainydayImage from "/src/assets/rainyday.jpeg";
-import museumImage from "/src/assets/museum.jpeg";
-import slimeCareImage from "/src/assets/slime-care.jpeg";
-import portfolioImage from "/src/assets/portifolio1.jpeg";
 
 const projectsData = [
   {
     title: "Rainyday",
-    image: rainydayImage ,
-    description: "This is my cross-course project. This was the first big project durring the first year. We had new assignments to add or change this project. Go to repolink and readme file to see more details.",
+    image: "/public/rainyday.jpeg",
+    description: "This is my cross-course project. This was the first big project during the first year. We had new assignments to add or change this project. Go to repolink and readme file to see more details.",
     technologies: ["Adobe XD", "HTML", "CSS", "JavaScript", "Wordpress Headless CMS (REST API)"],
     liveLink: "https://rainydayjackets.netlify.app/",
     repoLink: "https://github.com/Noroff-FEU-Assignments/cross-course-project-CamillaHorneland.git",
   },
   {
     title: "Community Science Museum",
-    image: museumImage,
+    image: "/public/museum.jpeg",
     description: "This is my semester project from my first year. The goal was to be creative and show the technical knowledge and skills based on the first semester curriculum. This includes design principles, project management, communication technology, and developing with HTML/CSS.",
     technologies: ["Adobe XD", "HTML", "CSS"],
     liveLink: "https://communitysciencemuseumbergen.netlify.app/",
@@ -23,7 +19,7 @@ const projectsData = [
   },
   {
     title: "Slime-Care",
-    image: slimeCareImage ,
+    image: "/public/slime-care.jpeg",
     description: "This is my exam from my first year as a Font-end Developer student. The goal for this exam was to put into practice the skilles I have learned over my first year as a student.",
     technologies: ["Adobe XD", "HTML", "CSS", "Wordpress Headless CMS (REST API)"],
     liveLink: "https://slime-care.netlify.app/",
@@ -31,7 +27,7 @@ const projectsData = [
   },
   {
     title: "Portfolio",
-    image: portfolioImage,
+    image: "/public/portifolio1.jpeg",
     description: "This is my portfolio assignment from my first year as a Font-end Developer student. The goal was to document the big assignements from this year.",
     technologies: ["Adobe XD", "HTML", "CSS", "JavaScript"],
     liveLink: "https://portfoliocamillahorneland.netlify.app/",
