@@ -3,7 +3,7 @@ import React from "react";
 const projectsData = [
   {
     title: "Semester project 2",
-    image: "/src/assets/semesterproject2.jpeg",
+    image: "/public/semesterproject2.jpeg",
     description: "This is my semester project 2. The goal was to take the skills learned over the past three semesters and create an auction website.",
     technologies: ["Adobe XD", "HTML", "SASS", "JavaScript", "Bootstrap", "Noroff API"],
     liveLink: "https://norauctionoff.netlify.app/",
@@ -11,7 +11,7 @@ const projectsData = [
   },
   {
     title: "The Online Store",
-    image: "/src/assets/theonliestore.jpeg",
+    image: "/public/theonliestore.jpeg",
     description: "This is my JavaScript Frameworks Course Assignement. The goal was to apply knowledge of React to build an eCom store. ",
     technologies: ["React+Vite", "Noroff API", "CSS Modules"],
     liveLink: "https://xtheonlinestorex.netlify.app/",
@@ -19,7 +19,7 @@ const projectsData = [
   },
   {
     title: "Holidaze",
-    image: "/src/assets/holidayz.jpeg",
+    image: "/public/holidayz.jpeg",
     description: "This is my project exam 2. The goal was to take the skills learned over the last two years and take on an extensive project where the finished product should reflect the candidate’s general development capabilities, in addition to visual and technical skills.",
     technologies: ["Adobe XD", "React+Vite", "Tailwind", "Yup", "Zustand", "Noroff API"],
     liveLink: "https://holidaze-camilla-horneland.netlify.app/",
