@@ -2,7 +2,7 @@ import React from "react";
 
 const projectsData = [
   {
-    title: "Semester project 2",
+    title: "Nor AUCTION Off",
     image: "/semesterproject2.jpeg",
     description: "This is my semester project 2. The goal was to take the skills learned over the past three semesters and create an auction website.",
     technologies: ["Adobe XD", "HTML", "SASS", "JavaScript", "Bootstrap", "Noroff API"],
